@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-indigo-700 to-purple-700 text-white shadow-lg fixed w-full z-10">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center py-4">
+            <div class="text-2xl font-bold"></div> <!-- Empty left corner -->
+            <div class="space-x-6 text-lg hidden md:flex">
+                <a href="#home" class="hover:text-yellow-300">Home</a>
+                <a href="#about" class="hover:text-yellow-300">About</a>
+                <a href="#skills" class="hover:text-yellow-300">Skills</a>
+                <a href="#projects" class="hover:text-yellow-300">Projects</a>
+                <a href="#certifications" class="hover:text-yellow-300">Certifications</a>
+                <a href="#contact" class="hover:text-yellow-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-br from-purple-200 via-indigo-100 to-purple-300 text-center">
+        <h1 class="text-5xl font-bold text-indigo-900 mb-4">Welcome to My Portfolio</h1>
+        <h2 class="text-3xl text-gray-700">Gummella S V L B Sathwika</h2>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="max-w-5xl mx-auto px-4 py-16 bg-pink-50">
+        <h2 class="text-3xl font-semibold mb-6 text-pink-700">About Me</h2>
+        <p class="text-gray-700 leading-relaxed">
+            I am an Information Technology student with a strong passion for data analysis and visualization. I have hands-on experience in Python, SQL, Power BI, Excel, and tools like Pandas and NumPy. I enjoy exploring data to uncover insights and support decision-making. With a keen interest in statistical thinking and problem-solving, I am eager to apply my skills in real-world projects. I am also a continuous learner who loves to explore new technologies and stay updated in the fast-evolving data landscape. Currently, I am seeking internship opportunities to further develop my skills and contribute to dynamic data-driven environments.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="max-w-5xl mx-auto px-4 py-16 bg-indigo-50">
+        <h2 class="text-3xl font-semibold mb-6 text-indigo-700">Skills</h2>
+        <div class="grid grid-cols-2 gap-6 text-gray-700">
+            <div>
+                <h3 class="font-bold text-indigo-800">Programming Languages</h3>
+                <p>Python, SQL</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-indigo-800">Data Analysis & Visualization Tools</h3>
+                <p>Pandas, NumPy, Excel, Power BI</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-indigo-800">Soft Skills</h3>
+                <p>Problem-Solving, Communication, Teamwork, Leadership</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-indigo-800">Other</h3>
+                <p>Quick Learner, Adaptability</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="max-w-5xl mx-auto px-4 py-16 bg-gradient-to-r from-green-100 to-blue-100">
+        <h2 class="text-3xl font-semibold mb-6 text-green-800">Projects</h2>
+        <ul class="space-y-6">
+            <li class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+                <h3 class="font-bold text-xl mb-2 text-indigo-800">Sales Dashboard</h3>
+                <p class="mb-2">An analytical tool built to monitor and evaluate sales performance using charts, KPIs, and tables.</p>
+                <a href="https://github.com/Sathwikagummella/Sales-Dashboard" target="_blank" class="text-indigo-600 font-medium hover:underline">View Project →</a>
+            </li>
+            <li class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+                <h3 class="font-bold text-xl mb-2 text-indigo-800">Trade Sphere Connect</h3>
+                <p class="mb-2">A modern, user-friendly mobile and web application designed to streamline and empower global trade interactions.</p>
+                <a href="https://www.figma.com/proto/qbW8Vw2Gg9F2HSVZtnZGkj?node-id=0-1&t=KZMFrocQPeR2eJje-6" target="_blank" class="text-indigo-600 font-medium hover:underline">View Project →</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="max-w-5xl mx-auto px-4 py-16 bg-yellow-50">
+        <h2 class="text-3xl font-semibold mb-6 text-yellow-700">Certifications</h2>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+            <li>Zscaler Zero Trust Certified Associate</li>
+            <li>Salesforce AI Associate</li>
+            <li>Generative AI By Google Cloud</li>
+        </ul>
+    </section>
+
+    <!-- Contact Links -->
+    <footer id="contact" class="bg-gradient-to-r from-indigo-700 to-purple-700 text-white py-6 mt-8">
+        <div class="max-w-5xl mx-auto px-4 text-center space-y-4">
+            <h2 class="text-xl font-bold mb-2">CONTACT ME</h2>
+            
+            <!-- Buttons in one row -->
+            <div class="flex flex-wrap justify-center space-x-4">
+                <a href="https://www.linkedin.com/in/sathwika-gummella-411453259" target="_blank" class="bg-indigo-800 text-white px-6 py-2 rounded hover:bg-indigo-900 transition-colors duration-300 text-lg font-medium">
+                    LinkedIn
+                </a>
+                
+                <a href="mailto:sathwikagummella@gmail.com" class="bg-yellow-500 text-white px-6 py-2 rounded hover:bg-yellow-600 transition-colors duration-300 text-lg font-medium">
+                    Email 
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll -->
+    <script>
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', e => {
+            e.preventDefault();
+            const section = document.querySelector(link.getAttribute('href'));
+            section.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+    </script>
+
+</body>
+</html>

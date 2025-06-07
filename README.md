@@ -34,5 +34,7 @@ I am a continuous learner with a keen interest in **statistical thinking** and *
 
 * [LinkedIn](https://www.linkedin.com/in/sathwika-gummella-411453259)
 * 📧 [sathwikagummella@gmail.com](mailto:sathwikagummella@gmail.com)
+  
+* Portfolio https://sathwikagummella.github.io/portfolio/
 
 
